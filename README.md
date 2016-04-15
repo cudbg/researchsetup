@@ -1,4 +1,4 @@
-
+A lot of life is about regret minimization.  Here are some tips to not be too sad in the future.
 
 
 # Running Experiments
@@ -30,5 +30,53 @@ If you want to go whole hog, try [ReproZip](https://vida-nyu.github.io/reprozip/
 
 # Plotting experiments
 
+Simple advice
+
+* Did you compute aggregate values (e.g., mean latency etc)?  Show the standard deviation, or more meaningfully, bootstrapped confidence intervals.  See the appendix for UDF code to compute it in PostgreSQL
+
+
+Flow chart for picking plots
+
+* TBD
+
+
+Tools
+
 * For the vast majority of plots, `ggplot2` in `R` is the way to go.  [Find a tutorial](https://www.google.com/?q=ggplot2%20tutorial) and follow it.
 * If you use python for everything like I do, try the [pygg](https://github.com/sirrice/pygg) library.  It gives you ggplot2 syntax in python.  It can't handle multiple layers, which you probably shouldn't be doing anyways.
+
+
+
+# Appendix
+
+
+PostgreSQL code for defining `95%` confidence intervals
+
+
+        DROP LANGUAGE plpythonu;
+        CREATE LANGUAGE plpythonu;
+
+        DROP FUNCTION IF EXISTS ci_final(numeric[]) cascade;
+        CREATE  FUNCTION ci_final(vs numeric[])
+        RETURNS numeric[]
+        as $$
+          vs = args[0]
+          sortedvs = sorted(vs)
+          from scikits import bootstrap
+          return bootstrap.ci(sortedvs, alpha=0.05)
+        $$ language plpythonu;
+
+        DROP AGGREGATE IF EXISTS ci(numeric);
+        CREATE AGGREGATE ci (numeric) (
+          SFUNC = array_append,
+          STYPE = numeric[],
+          initcond = '{}',
+          FINALFUNC = ci_final
+        );
+
+
+        -- an example query
+
+        SELECT ci(measure)[0] AS lower_bound,
+              ci(measure)[1] AS upper_bound
+        FROM dataset
