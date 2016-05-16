@@ -1,7 +1,13 @@
 A lot of life is about regret minimization.  Here are some tips to not be too sad in the future.
 
 
-# Running Experiments
+
+
+# Experiments
+
+## Running Experiments
+
+        tldr; put all the raw data into a database
 
 You want your experiments to be reproducible because they will fail the first (and second, third) times, so you will want an easy way to examine and debug them.  The following are some basic instructions.
 
@@ -28,7 +34,7 @@ Some rules of thumb:
 If you want to go whole hog, try [ReproZip](https://vida-nyu.github.io/reprozip/)
 
 
-# Plotting experiments
+## Plotting experiments
 
 Simple advice
 
@@ -47,7 +53,17 @@ Tools
 
 
 
+# Reviewing Papers
+
+Not much else to say:
+
+* [https://github.com/jtleek/reviews](https://github.com/jtleek/reviews)
+
+
 # Appendix
+
+
+## Useful Code
 
 
 PostgreSQL code for defining `95%` confidence intervals
