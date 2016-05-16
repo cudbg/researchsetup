@@ -75,23 +75,28 @@ Managing your papers
 
 Fill in the following form, with an emphasis on the **positive** aspects of the paper:
 
-      # Positives 
+    # Positives 
 
-      ## What is the key idea in this paper?  Why is it a good idea?
+    ## What is the key idea in this paper?  Why is it a good idea?
 
-      ## What are other reasons why this could be a good idea that are not mentioned in the text?  Suggest them.
+    ## Are there other reasons why this could be a good idea not mentioned in the text?  Suggest them.
 
-      ## Are there other applications where you could use these ideas?  Describe them
+    ## Are there other applications where you could use these ideas?  Describe them
 
-      ## What else did you like about this paper?
+    ## Which of the experiments helped you understand the paper?
 
-      # Improvements
+    ## What else did you like about this paper?
 
-      ## What writing improvements could have made it easier to understand the paper?
+    # Improvements
 
-      ## What techniques would make the ideas _even better_?  In what ways
+    ## What writing improvements could have made it easier to understand the paper?
 
-      ## What experiments/plots would help you better understand how well the ideas work?  Are they _possible_? (remember: getting private data is hard)
+    ## What techniques would make the ideas _even better_?  In what ways
+
+    ## What experiments/plots would help you better understand how well the ideas work?  
+    ## Are they _possible_? (remember: getting private data is hard)
+
+
 
          
 
