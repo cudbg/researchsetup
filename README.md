@@ -52,6 +52,21 @@ Tools
 * If you use python for everything like I do, try the [pygg](https://github.com/sirrice/pygg) library.  It gives you ggplot2 syntax in python.  It can't handle multiple layers, which you probably shouldn't be doing anyways.
 
 
+# Papers
+
+Managing your papers
+
+* David Blei's lab: https://github.com/blei-lab/publications
+* I like to keep one repo per project, but makes releasing code more of a pain:
+
+        SUPERPROJECT/
+          docs/
+            sigmod_16/
+            vldb_16/
+            README.md            -- all project notes
+          src/
+            allmycode/
+
 
 # Reviewing Papers
 
@@ -61,7 +76,6 @@ Not much else to say:
 
 
 # Appendix
-
 
 ## Useful Code
 
