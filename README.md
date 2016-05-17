@@ -71,7 +71,7 @@ Managing your papers
 # Reviewing Papers
 
 
-        tldr; don't be a dick.  
+        tldr; think like an engineer and look for things to take
 
 Fill in the following form, with an emphasis on the **positive** aspects of the paper:
 
