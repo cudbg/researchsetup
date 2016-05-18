@@ -52,11 +52,28 @@ Tools
 * If you use python for everything like I do, try the [pygg](https://github.com/sirrice/pygg) library.  It gives you ggplot2 syntax in python.  It can't handle multiple layers, which you probably shouldn't be doing anyways.
 
 
+## Presenting Experiments
+
+There are simple steps to better understand what's going on.  These are also the steps for presenting an experiment.  Do the following
+
+1. List your hypothesis
+1. What ideal plots will help validate or debunk your hypothesis?
+   a. Draw out what the plots should look like if your hypothesis is correct and if incorrect
+   a. include x and y axes, shape of curves
+1. What will you do to generate these plots?
+1. Why do the plots look this way?  
+   a. Which parts confirm your hypothesis?  
+   a. What's surprising/does not confirm your hypothesis?  Why?
+1. What are the next steps to
+   a. answer 4b
+   a. use what you learned in your system
+1. Go to step 1
+
+
 # Papers
 
 Managing your papers
 
-* David Blei's lab: https://github.com/blei-lab/publications
 * I like to keep one repo per project, but makes releasing code more of a pain:
 
         SUPERPROJECT/
@@ -67,6 +84,7 @@ Managing your papers
           src/
             allmycode/
 
+* David Blei's lab: https://github.com/blei-lab/publications
 
 # Reviewing Papers
 
