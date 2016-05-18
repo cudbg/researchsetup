@@ -65,7 +65,7 @@ There are simple steps to better understand what's going on.  These are also the
    1. Which parts confirm your hypothesis?  
    1. What's surprising/does not confirm your hypothesis?  Why?
 1. What are the next steps to
-   1. answer 4b
+   1. answer 4ii
    1. use what you learned in your system
 1. Go to step 1
 
