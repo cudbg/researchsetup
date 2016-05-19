@@ -1,6 +1,38 @@
 A lot of life is about regret minimization.  Here are some tips to not be too sad in the future.
 
 
+# Deployments
+
+You'll likely setup many application/server deployments as part of research.  Automate your deployment
+
+SSH
+
+* google for "passwordless ssh"
+* http://www.linuxproblem.org/art_9.html
+
+Fabric
+
+* create a `fabfile.py` in your project directory
+
+        from fabric.api import run, env, local
+
+        env.hosts = ['clic.cs.columbia.edu']
+
+        def taskA():
+            run('ls')    # runs on your env.hosts machines
+
+        def taskB():
+            local('ls')  # runs on your local machine
+
+* Type the following in the same directory as `fabfile.py` to list the commands
+
+        fab -l
+
+* documentation
+  * http://www.fabfile.org/
+  * http://docs.fabfile.org/en/1.11/tutorial.html
+  * http://docs.fabfile.org/en/1.11/usage/execution.html#execution-strategy
+
 
 
 # Experiments
