@@ -131,6 +131,16 @@ What other people say about reviewing:
 * [https://github.com/jtleek/reviews](https://github.com/jtleek/reviews)
 
 
+
+# Jobs
+
+### Faculty Jobs
+
+List of useful links to people's cover letters/cvs/etc
+
+* http://eugenewu.net/job.html
+* http://pgbovine.net/faculty-job-application-materials.htm
+
 # Appendix
 
 ## Useful Code
