@@ -86,6 +86,13 @@ Managing your papers
 
 * David Blei's lab: https://github.com/blei-lab/publications
 
+# Writing papers
+
+It helps to see how other papers evolve.  I've built a tool called `latexsnapshots` that will generate snapshots of a paper as it evolves.  
+
+* [See how my VLDB 2014 paper evolved.](http://eugenewu.net/latexsnapshots/html/)
+
+
 # Reviewing Papers
 
 
