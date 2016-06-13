@@ -1,5 +1,14 @@
 A lot of life is about regret minimization.  Here are some tips to not be too sad in the future.
 
+Index
+
+* [Questions](#questions)
+* [Deployments](#deployments)
+* [Experiments](#experiments)
+* [Papers](#papers)
+* [Jobs](#jobs)
+* [Appendix](#appendix)
+
 # Questions
 
 When asking questions about code, hit the following points:
