@@ -1,5 +1,20 @@
 A lot of life is about regret minimization.  Here are some tips to not be too sad in the future.
 
+# Questions
+
+When asking questions about code, hit the following points:
+
+1. what piece of code 
+2. what you think it currently does and why, 
+3. what you think needs to be changed to get the desired behavior 
+4. what went wrong in terms of how the problem manifests itself and 
+5. what you think the issue is
+6. Remember, the helper may not have dealt with your specific instance of this problem
+
+Other resources
+
+* http://stackoverflow.com/help/how-to-ask
+
 
 # Deployments
 
@@ -104,6 +119,9 @@ There are simple steps to better understand what's going on.  These are also the
 
 # Papers
 
+
+## Setup
+
 Managing your papers
 
 * I like to keep one repo per project, but makes releasing code more of a pain:
@@ -118,14 +136,14 @@ Managing your papers
 
 * David Blei's lab: https://github.com/blei-lab/publications
 
-# Writing papers
+## Writing papers
 
 It helps to see how other papers evolve.  I've built a tool called `latexsnapshots` that will generate snapshots of a paper as it evolves.  
 
 * [See how my VLDB 2014 paper evolved.](http://eugenewu.net/latexsnapshots/html/)
 
 
-# Reviewing Papers
+## Reviewing Papers
 
 
         tldr; think like an engineer and look for things to take
