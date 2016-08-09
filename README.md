@@ -58,6 +58,14 @@ Fabric
   * http://docs.fabfile.org/en/1.11/usage/execution.html#execution-strategy
 
 
+## Releasing Code
+
+Releasing working code is a very good idea.  If you are writing a python application, make it `pip` installable.  The following repo provides a skeleton and simple example code for structuring a python package so it can be uploaded to pypi.
+
+* [https://github.com/cudbg/pipexample](https://github.com/cudbg/pipexample)
+
+
+
 
 # Experiments
 
