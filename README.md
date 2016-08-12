@@ -2,12 +2,16 @@ A lot of life is about regret minimization.  Here are some tips to not be too sa
 
 Index
 
-* [Questions](#questions)
+* [Asking Questions](#questions)
 * [Deployments](#deployments)
 * [Experiments](#experiments)
 * [Papers](#papers)
 * [Jobs](#jobs)
 * [Appendix](#appendix)
+
+# What is Research?
+
+tbd
 
 # Questions
 
