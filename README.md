@@ -155,6 +155,7 @@ Managing your papers
           src/
             allmycode/
 
+* See [/docs/example16](./docs/example16)
 * David Blei's lab: https://github.com/blei-lab/publications
 
 ## Writing papers
