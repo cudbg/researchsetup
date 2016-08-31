@@ -70,6 +70,14 @@ Releasing working code is a very good idea.  If you are writing a python applica
 
 
 
+## Websites
+
+It is important to create and maintain a website of your project -- this is the primary way the world will learn about what you are doing!
+
+* Create a github organization for your project.  Let's say it's called `yourproject`
+* Create repo called `yourproject.github.io` in your organization
+* Copy and edit the [example website scaffolding](./src/website_scaffold/) where all you need to do is edit markdown documents and run a build script to create your site pages
+
 
 # Experiments
 
