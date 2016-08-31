@@ -5,7 +5,7 @@ Setup
 To edit the website:
 
 1. **DO NOT EDIT html files DIRECTLY**
-1. Create or edit a markdown (`.md`) file in `./templates`.  There is a default [templates/index.html](./templates/index.html) already created for you.
+1. Create or edit a markdown (`.md`) file in `./templates`.  There is a default [./templates/index.md](./templates/index.md) already created for you.
 2. Run the build script, which will generate html files with the same name as the `.md` files
 
         fab build
