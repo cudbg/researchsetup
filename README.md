@@ -173,6 +173,9 @@ It helps to see how other papers evolve.  I've built a tool called `latexsnapsho
 
 * [See how my VLDB 2014 paper evolved.](http://eugenewu.net/latexsnapshots/html/)
 
+Responding to reviewer comments
+
+* [A sarcastic guide](http://errantscience.com/blog/2016/10/19/how-to-reply-to-reviewers-a-terrible-guide-that-no-one-should-follow/)
 
 ## Reviewing Papers
 
