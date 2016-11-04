@@ -22,7 +22,7 @@ All credit goes to remcochang@tufts
 
 * In once sentence, what new thing do you want to show/achieve?  
 
-      _e.g., by using my threading library, systems run faster_
+        My new threading library will make systems run faster.
 
 * Is this an application, a simulation, a prototype, etc?  _application/library_
 * Who are the users whose lives would be improved by the research?  
