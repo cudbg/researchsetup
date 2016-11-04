@@ -53,11 +53,11 @@ All credit goes to remcochang@tufts
 * What risks could derail the project?  
   * **Major**: would kill the project: 
   
-        Technique XXX doesn't work.  (hint: better verify this isn't the case!)
+          Technique XXX doesn't work.  (hint: better verify this isn't the case!)
 
   * **Minor**: slow the project down:  
   
-        Programs are super complicated, and takes longer to switch to my library
+          Programs are super complicated, and takes longer to switch to my library
 
 * Top 5 papers related to this project (previous attempts, alternatives, assumptions, etc)
   1. _library Y[1] proposed technique Y to run programs faster.  However they don't work for cases A, B, C which are important cases that affect the users described above._
@@ -68,8 +68,8 @@ All credit goes to remcochang@tufts
   * What do you need to be measuring (aka the x and y axes of a graph)  
   * How much do these metrics need to change before "success"?
 
-        The mail, webserver and database programs run at least 2x faster when using our library_ 
-        We will measure latency, development costs
+          The mail, webserver and database programs run at least 2x faster when using our library_ 
+          We will measure latency, development costs
 
 
 
