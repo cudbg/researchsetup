@@ -24,27 +24,52 @@ All credit goes to remcochang@tufts
 
         My new threading library will make systems run faster.
 
-* Is this an application, a simulation, a prototype, etc?  _application/library_
+* Is this an application, a simulation, a prototype, etc?  
+
+        application/library
+
 * Who are the users whose lives would be improved by the research?  
-  _people that user multi-threaded libraries.  Developers to a lesser extent_
-  * What causes their frustrations in the current state of the art?   _programs are too slow.  Some take 10 whole seconds to run!_
-  * If your project succeeds, how does that change their lives?  _programs will be fast.  completely changes how people interact with programs_
-  * If your project is not done, what happens?  _lives are wasted waiting for slow programs_
-* If the project works out in the *best case*, what results does that entail?  _multi-threaded programs run 30x faster_
+  * What causes their frustrations in the current state of the art?   
+  * If your project succeeds, how does that change their lives?  
+  * If your project is not done, what happens?  
+
+        People that user multi-threaded libraries.  Developers to a lesser extent
+
+        * programs are too slow.  Some take 10 whole seconds to run!
+        * programs will be fast.  completely changes how people interact with programs
+        * lives are wasted waiting for slow programs
+
+* If the project works out in the *best case*, what results does that entail?  
+
+        Multi-threaded programs run 30x faster
+
 * What steps are needed to make this happen?  
-  _identify key bottlenecks in existing programs.  use technique XXX to remove the bottlenecks._
-  _Write a library.  Modify existing programs to use library and run experiments_
+
+        1. Identify key bottlenecks in existing programs.  
+        2. Use technique XXX to remove the bottlenecks.
+        3. Write a library.  
+        4. Modify existing programs to use library and run experiments_
+
 * What risks could derail the project?  
-  * **Major**: would kill the project: _technique XXX doesn't work_ 
-  * **Minor**: slow the project down:  _programs are super complicated.  takes longer to switch to my library_
+  * **Major**: would kill the project: 
+  
+        Technique XXX doesn't work.  (hint: better verify this isn't the case!)
+
+  * **Minor**: slow the project down:  
+  
+        Programs are super complicated, and takes longer to switch to my library
+
 * Top 5 papers related to this project (previous attempts, alternatives, assumptions, etc)
   1. _library Y[1] proposed technique Y to run programs faster.  However they don't work for cases A, B, C which are important cases that affect the users described above._
   2. _project W[2] say that multi-threading is not needed if developers use a new chip.  However the chip doesn't actually exist yet_
   3. _developers make their programs faster by using tricks D, E, F.[3,4,5]  Turns out they are special cases of our library_
   4. _projects L, K [6,7] have used variations of our technique XXX in other domains and look, they worked.  However, they are different in these ways_
-* How do you know if the project succeeded?  _the mail, webserver and database programs run at least 2x faster when using our library_
-  * What do you need to be measuring (aka the x and y axes of a graph)  _latency, development costs_
+* How do you know if the project succeeded?  
+  * What do you need to be measuring (aka the x and y axes of a graph)  
   * How much do these metrics need to change before "success"?
+
+        The mail, webserver and database programs run at least 2x faster when using our library_ 
+        We will measure latency, development costs
 
 
 
