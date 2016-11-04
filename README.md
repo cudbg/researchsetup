@@ -33,11 +33,11 @@ All credit goes to remcochang@tufts
   * If your project succeeds, how does that change their lives?  
   * If your project is not done, what happens?  
 
-        People that user multi-threaded libraries.  Developers to a lesser extent
+          People that user multi-threaded libraries.  Developers to a lesser extent
 
-        * programs are too slow.  Some take 10 whole seconds to run!
-        * programs will be fast.  completely changes how people interact with programs
-        * lives are wasted waiting for slow programs
+          * programs are too slow.  Some take 10 whole seconds to run!
+          * programs will be fast.  completely changes how people interact with programs
+          * lives are wasted waiting for slow programs
 
 * If the project works out in the *best case*, what results does that entail?  
 
