@@ -2,7 +2,8 @@ A lot of life is about regret minimization.  Here are some tips to not be too sa
 
 Index
 
-* [Asking Questions](#questions)
+* [Before picking a project](#questions-to-answer-when-picking-problems)
+* [Asking for Help](#asking-for-help)
 * [Deployments](#deployments)
 * [Experiments](#experiments)
 * [Papers](#papers)
