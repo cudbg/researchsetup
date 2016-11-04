@@ -13,7 +13,40 @@ Index
 
 tbd
 
-# Questions
+# Questions to Answer When Picking Problems
+
+All credit goes to remcochang@tufts
+
+* In once sentence, what new thing do you want to show/achieve?
+* Is this an application, a simulation, a prototype, etc?
+* Who are the users whose lives would be improved by the research?
+  * What causes their frustrations in the current state of the art?
+  * If your project succeeds, how does that change their lives?
+  * If your project is not done, what happens?
+* If the project works out in the *best case*, what results does that entail?
+* What steps are needed to make this happen?
+* What risks could derail the project?
+  * Major: would kill the project
+  * Minor: slow the project down
+* Top 5 papers related to this project (previous attempts, alternatives, assumptions, etc)
+* How do you know if the project succeeded?  
+  * What do you need to be measuring (aka the x and y axes of a graph)
+  * How much do these metrics need to change before "success"?
+
+
+
+# Asking for help
+
+Asking for help is important and getting feedback often is important.    Better to be embarrassed early on than when you try to publish!
+From [AMA with Google Brain team](https://www.reddit.com/r/MachineLearning/comments/4w6tsv/ama_we_are_the_google_brain_team_wed_love_to/d6diast)
+
+        I often tell new team members about the 15 min rule (I didn't come up with it): 
+        when you're stuck on something (e.g. getting a script to run), you have to try to 
+        solve the problem all by yourself for 15 min, but then when the 15 minutes are up 
+        you have to ask for help. Failure to do the former wastes people's time, 
+        failure to ask for help wastes your time.
+
+        (the value 15 may vary)
 
 When asking questions about code, hit the following points:
 
@@ -23,6 +56,8 @@ When asking questions about code, hit the following points:
 4. what went wrong in terms of how the problem manifests itself and 
 5. what you think the issue is
 6. Remember, the helper may not have dealt with your specific instance of this problem
+
+
 
 Other resources
 
