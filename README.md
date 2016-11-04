@@ -15,22 +15,33 @@ tbd
 
 # Questions to Answer When Picking Problems
 
+All of the following questions eventually need to be answered in a publication, and ideally before fully jumping into a project.
+Often you want to run small experiments in order to answer these questions.
+
 All credit goes to remcochang@tufts
 
-* In once sentence, what new thing do you want to show/achieve?
-* Is this an application, a simulation, a prototype, etc?
-* Who are the users whose lives would be improved by the research?
-  * What causes their frustrations in the current state of the art?
-  * If your project succeeds, how does that change their lives?
-  * If your project is not done, what happens?
-* If the project works out in the *best case*, what results does that entail?
-* What steps are needed to make this happen?
-* What risks could derail the project?
-  * Major: would kill the project
-  * Minor: slow the project down
+* In once sentence, what new thing do you want to show/achieve?  
+  _e.g., by using my threading library, systems run faster_
+* Is this an application, a simulation, a prototype, etc?  _application/library_
+* Who are the users whose lives would be improved by the research?  
+  _people that user multi-threaded libraries.  Developers to a lesser extent_
+  * What causes their frustrations in the current state of the art?   _programs are too slow.  Some take 10 whole seconds to run!_
+  * If your project succeeds, how does that change their lives?  _programs will be fast.  completely changes how people interact with programs_
+  * If your project is not done, what happens?  _lives are wasted waiting for slow programs_
+* If the project works out in the *best case*, what results does that entail?  _multi-threaded programs run 30x faster_
+* What steps are needed to make this happen?  
+  _identify key bottlenecks in existing programs.  use technique XXX to remove the bottlenecks._
+  _Write a library.  Modify existing programs to use library and run experiments_
+* What risks could derail the project?  
+  * **Major**: would kill the project: _technique XXX doesn't work_ 
+  * **Minor**: slow the project down:  _programs are super complicated.  takes longer to switch to my library_
 * Top 5 papers related to this project (previous attempts, alternatives, assumptions, etc)
-* How do you know if the project succeeded?  
-  * What do you need to be measuring (aka the x and y axes of a graph)
+  1. _library Y[1] proposed technique Y to run programs faster.  However they don't work for cases A, B, C which are important cases that affect the users described above._
+  2. _project W[2] say that multi-threading is not needed if developers use a new chip.  However the chip doesn't actually exist yet_
+  3. _developers make their programs faster by using tricks D, E, F.[3,4,5]  Turns out they are special cases of our library_
+  4. _projects L, K [6,7] have used variations of our technique XXX in other domains and look, they worked.  However, they are different in these ways_
+* How do you know if the project succeeded?  _the mail, webserver and database programs run at least 2x faster when using our library_
+  * What do you need to be measuring (aka the x and y axes of a graph)  _latency, development costs_
   * How much do these metrics need to change before "success"?
 
 
