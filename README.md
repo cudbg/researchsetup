@@ -21,7 +21,9 @@ Often you want to run small experiments in order to answer these questions.
 All credit goes to remcochang@tufts
 
 * In once sentence, what new thing do you want to show/achieve?  
-  _e.g., by using my threading library, systems run faster_
+
+      _e.g., by using my threading library, systems run faster_
+
 * Is this an application, a simulation, a prototype, etc?  _application/library_
 * Who are the users whose lives would be improved by the research?  
   _people that user multi-threaded libraries.  Developers to a lesser extent_
