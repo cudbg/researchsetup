@@ -1,2 +1,2 @@
-[The content has been moved to the Wiki](https://github.com/cudbg/researchsetup/wiki)
+Content has moved to [The new repository](https://github.com/researchsetup/researchsetup.github.io) and [the new wiki](https://github.com/researchsetup/researchsetup.github.io/wiki).
 
