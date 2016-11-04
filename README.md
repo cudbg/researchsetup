@@ -59,11 +59,22 @@ All credit goes to remcochang@tufts
   
           Programs are super complicated, and takes longer to switch to my library
 
-* Top 5 papers related to this project (previous attempts, alternatives, assumptions, etc)
-  1. _library Y[1] proposed technique Y to run programs faster.  However they don't work for cases A, B, C which are important cases that affect the users described above._
-  2. _project W[2] say that multi-threading is not needed if developers use a new chip.  However the chip doesn't actually exist yet_
-  3. _developers make their programs faster by using tricks D, E, F.[3,4,5]  Turns out they are special cases of our library_
-  4. _projects L, K [6,7] have used variations of our technique XXX in other domains and look, they worked.  However, they are different in these ways_
+* List the top 5 papers related to this project 
+
+          (Consider previous attempts, alternatives, assumptions you rely on, etc)
+
+          1. Library Y[1] proposed technique Y to run programs faster.  It works really well, however they don't work 
+             for mail servers, web servers and databases, which are important cases that affect the users described above.
+
+          2. Project W[2] say that multi-threading is not needed if developers use a new chip.  
+             However the chip doesn't actually exist yet
+
+          3. Developers make their programs faster by using tricks D, E, F.[3,4,5]  
+             Turns out they are special cases of our library
+
+          4. Projects L, K [6,7] have used variations of our technique XXX in other domains 
+             and look, they worked.  We needed to extend these ideas to make it work for our library.
+
 * How do you know if the project succeeded?  
   * What do you need to be measuring (aka the x and y axes of a graph)  
   * How much do these metrics need to change before "success"?
