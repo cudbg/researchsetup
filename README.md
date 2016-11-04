@@ -63,17 +63,19 @@ All credit goes to remcochang@tufts
 
           (Consider previous attempts, alternatives, assumptions you rely on, etc)
 
-          1. Library Y[1] proposed technique Y to run programs faster.  It works really well, however they don't work 
-             for mail servers, web servers and databases, which are important cases that affect the users described above.
+          1. Library Y[1] proposed technique Y to run programs faster.  
+             It works really well, however they don't work 
+             for mail servers, web servers and databases, which are important 
+             cases that affect the users described above.
 
           2. Project W[2] say that multi-threading is not needed if developers use a new chip.  
              However the chip doesn't actually exist yet
 
-          3. Developers make their programs faster by using tricks D, E, F.[3,4,5]  
+          3. Developers speed up their programs using D, E, F.[3,4,5]  
              Turns out they are special cases of our library
 
-          4. Projects L, K [6,7] have used variations of our technique XXX in other domains 
-             and look, they worked.  We needed to extend these ideas to make it work for our library.
+          4. Projects L,K[6,7]  used variations of technique XXX in other domains.
+             Look, they worked!  We needed to extend these ideas to make it work for our library.
 
 * How do you know if the project succeeded?  
   * What do you need to be measuring (aka the x and y axes of a graph)  
