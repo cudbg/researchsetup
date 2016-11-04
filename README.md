@@ -349,3 +349,10 @@ PostgreSQL code for defining `95%` confidence intervals
         SELECT ci(measure)[0] AS lower_bound,
               ci(measure)[1] AS upper_bound
         FROM dataset
+
+
+## Links
+
+Other ways to approach research
+
+* [Michael Bernstein's page](http://hci.stanford.edu/msb/gettingstarted/)
