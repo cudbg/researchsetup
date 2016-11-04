@@ -1,4 +1,5 @@
-A lot of life is about regret minimization.  Here are some tips to not be too sad in the future.
+Research is a super super fun process.  However there's a lot of uncertainty and not a lot of _how to I "do" research_ guides, so the process can be frustrating.
+Below are a set of notes for some aspects of the process.
 
 Index
 
@@ -356,3 +357,8 @@ PostgreSQL code for defining `95%` confidence intervals
 Other ways to approach research
 
 * [Michael Bernstein's page](http://hci.stanford.edu/msb/gettingstarted/)
+
+Resources to run a lab
+
+* http://labcarpentry.org/
+* https://dynamicecology.wordpress.com/2013/07/11/in-praise-of-shopkeeper-science/
