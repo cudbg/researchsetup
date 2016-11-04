@@ -256,7 +256,9 @@ Managing your papers
 
 ## Writing papers
 
-It helps to see how other papers evolve.  I've built a tool called `latexsnapshots` that will generate snapshots of a paper as it evolves.  
+See the notes of [questions to answer before picking a project](#questions-to-answer-when-picking-problems).  These are the minimum questions to address in your paper.
+
+It also helps to see how other papers evolve.  I've built a tool called `latexsnapshots` that will generate snapshots of a paper as it evolves.  
 
 * [See how my VLDB 2014 paper evolved.](http://eugenewu.net/latexsnapshots/html/)
 
